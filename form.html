@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Javascript</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+ 
+<center><h2>Form Registrasi</h2></center>
+<div class="login">
+<form action="#" name="registrasi" method="POST" onsubmit="Registrasi(event)">
+
+    <div>
+        <label for="">Nama Lengkap :</label>
+        <input type="text" name="nama" id="nama" required/>
+    </div>
+    <div>
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email" required/>
+    </div>
+    <div>
+        <label for="">Alamat :</label>
+        <textarea name="alamat" id="alamat" cols="40" rows="5"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Daftar" class="tombol">
+    </div>
+</form>
+</div>
+
+<table border="2" id="tb" align="center">
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Email</th>
+        <th>Alamat</th>
+    </tr>
+</table>
+
+<script src="./form.js"></script>
+</body>
+</html>
